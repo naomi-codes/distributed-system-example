@@ -2,13 +2,14 @@
 A token passing example of a distributed system
 
 ## Installation
+> Single machine use
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Download the zip file to[pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 pip install foobar
 ```
-
+> Multiple machine use
 ## Usage
 
 ```python
