@@ -22,7 +22,7 @@ java Node
 ###### Multiple machine use
 Use an instance of the command line or terminal to run the Node on Coordinator programs from the seperate installations.
 
-###### Things to try
+## Things to try
 Experiment with running different numbers of nodes to see how the coordinator deals with the requests it receives.
 
 ## Contributing
