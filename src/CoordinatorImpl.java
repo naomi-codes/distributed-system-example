@@ -9,7 +9,7 @@ import java.rmi.RemoteException;
 import java.util.Scanner;
 
 
-public class CoordinatorImpl extends java.rmi.server.UnicastRemoteObject implements Coordinator{
+public class CoordinatorImpl {
 
 
 	private static C_buffer buffer;
@@ -47,8 +47,6 @@ public class CoordinatorImpl extends java.rmi.server.UnicastRemoteObject impleme
 
 		// allows defining port at launch time
 		if (args.length == 1) port = Integer.parseInt(args[0]);
-
-
 
 
 		// Create and run a C_receiver and a C_mutex object sharing a C_buffer object
