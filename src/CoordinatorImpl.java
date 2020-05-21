@@ -5,7 +5,6 @@
  */
 
 import java.net.InetAddress;
-import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.util.Scanner;
 

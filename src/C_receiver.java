@@ -37,7 +37,7 @@ public class C_receiver extends Thread{
 
 
 
-		while (true) {
+		while (true) { //keep running
 
 			System.out.println ("C:receiver    Listening for incoming connections from Nodes...") ;
 
