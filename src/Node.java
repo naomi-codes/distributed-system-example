@@ -5,8 +5,6 @@
  *  Node in the DME
  */
 import java.net.*;
-import java.rmi.Naming;
-import java.rmi.NotBoundException;
 import java.io.*;
 import java.util.*;
 
@@ -81,7 +79,6 @@ public class Node{
 
 
 		while(true){
-
 
 			// try connecting to the coordinator (via its receiver port)
 			try {
